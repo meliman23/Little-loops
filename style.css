@@ -51,7 +51,7 @@ button:hover {
 }
 
 /* Box Styles */
-.box, .box2 {
+.box{
   background-color: var(--secondary-bg);
   padding: 16px;
   border-radius: var(--border-radius);
@@ -65,9 +65,10 @@ button:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+
 /* Images */
 #activityImage {
-  max-width: 100%;
+  max-width: auto;
   max-height: 200px;
   margin-top: 10px;
   border-radius: 8px;
