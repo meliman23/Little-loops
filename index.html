@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="notmobile">
+      <p>This is a mobile only site</p>
+      <p>shrink your screen size🖥 or get on your phone 👉🏾📲</p>
+    </div>
+    <div class="mobile">
+      <h1><u>Ahjah's schduele</u></h1>
+
+      <table>
+        <tr>
+          <td>9am - 10am</td>
+          <td>🍳 Breakfast</td>
+        </tr>
+        <tr>
+          <td>10am - 10:30am</td>
+          <td>🧼 Hygiene</td>
+        </tr>
+        <tr>
+          <td>10:30am - 12pm</td>
+          <td>🧸 Playtime</td>
+        </tr>
+        <tr>
+          <td>12pm - 12:30pm</td>
+          <td>🍎 Snack Time</td>
+        </tr>
+        <tr>
+          <td>12:30pm - 1pm</td>
+          <td>🎨 Activity</td>
+        </tr>
+        <tr>
+          <td>1pm - 1:30pm</td>
+          <td>🖍️ Activity 2</td>
+        </tr>
+        <tr>
+          <td>1:30pm - 3pm</td>
+          <td>🧸 Playtime</td>
+        </tr>
+        <tr>
+          <td>3pm - 3:30pm</td>
+          <td>🥪 Lunch</td>
+        </tr>
+        <tr>
+          <td>3:30pm - 5pm</td>
+          <td>🛌 Nap Time</td>
+        </tr>
+        <tr>
+          <td>5pm - 7pm</td>
+          <td>📺 TV Time</td>
+        </tr>
+        <tr>
+          <td>7pm - 8:30pm</td>
+          <td>🍽️ Dinner</td>
+        </tr>
+        <tr>
+          <td>8:30pm - 9pm</td>
+          <td>🛁 Bath Time</td>
+        </tr>
+        <tr>
+          <td>9pm</td>
+          <td>😴 Bed Time</td>
+        </tr>
+      </table>
+      
+      <div class="box">
+        <h3>Todler Activities</h3>
+        <ul>
+          <li>Sensory play</li>
+          <li>arts & crafts</li>
+          <li>Outside play</li>
+          <li>Dance and music</li>
+       
+        </ul>
+      
+      </div>
+      <div class="box">
+        <div class="box2">
+          <button onclick="pickRandomActivity()">Pick Random Activity</button>
+          <div id="result"></div>
+        </div>
+
+        <img id="activityImage" src="" alt="" style="display: none" />
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
